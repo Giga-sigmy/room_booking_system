@@ -17,5 +17,5 @@ Tech stack:
     - FastAPI
     - next.js
     - postgres
-    
 
+https://room-booking-system-ashen.vercel.app/
