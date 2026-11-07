@@ -23,26 +23,72 @@ body {
   margin: 0;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 main {
   margin-top: 100px;
+  margin-left: 10vw;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  border: 1px black solid;
+  border-radius: 20px;
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .content-row {
+    font-size: 20px;
+  }
+
+  button {
+    border: solid var(--foreground) 1px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 20px;
+  }
 }
 
 .header {
   position: fixed;
   top: 0;
   left: 0;
+  padding-left: 40px;
+  padding-right: 40px;
   background: var(--background-banner);
-  width: 100%;
+  width: calc(100% - 80px);
   height: 70px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 
-  div {
+  h1 {
+    font-size: 30px;
+  }
+
+  div, h1 {
     height: 100%;
     justify-content: center;
     display: flex;
     flex-direction: column;
+  }
+
+  div:hover {
+    cursor: pointer;
+  }
+
+  h1:hover {
+    cursor: pointer;
   }
 
   button {
