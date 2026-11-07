@@ -17,6 +17,5 @@ Tech stack:
     - FastAPI
     - next.js
     - postgres
-    
-github pages: https://giga-sigmy.github.io/room_booking_system/
 
+https://room-booking-system-ashen.vercel.app/
