@@ -2,3 +2,5 @@ fastapi
 pytest
 httpx
 pydantic
+sqlalchemy
+psycopg[binary]
