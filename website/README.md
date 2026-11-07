@@ -12,3 +12,5 @@
 - Footer (App name, Authors, UJ data)
 - Room booking calendar
 - Cancel reservation
+- Room card
+- Room list
