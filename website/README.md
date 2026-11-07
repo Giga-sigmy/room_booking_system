@@ -8,7 +8,7 @@
     basePath: process.env.PAGES_BASE_PATH,
 ```
 - in case of any issues please report to devops team instead of changing :D
-
+- Please note that this will prevent some of juicy functions like SPA from functioning
 ## Views
 - Main page - Jaś
 - Listing all rooms - Monika
