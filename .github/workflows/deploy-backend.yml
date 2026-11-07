@@ -40,9 +40,9 @@ jobs:
 
       - name: Link Vercel project
         env:
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
-          VERCEL_ORG_ID: ${{ secrets.TEAM_ID }}
-          VERCEL_PROJECT_ID: ${{ secrets.PROJECT_ID }}
+          VERCEL_TOKEN: ${{ secrets.GIGA_SIGMY_TOKEN_VERCEL }}
+          VERCEL_ORG_ID: ${{ secrets.GIGA_SIGMY_ROOM_BOOKING_SYSTEM_TEAM_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.GIGA_SIGMY_PROJECT_ROOM_BOOKING_ID }}
         run: |
           mkdir -p .vercel
           printf '{"orgId":"%s","projectId":"%s"}' \
@@ -52,11 +52,11 @@ jobs:
       - name: Pull production configuration
         run: vercel pull --yes --environment=production --token="$VERCEL_TOKEN"
         env:
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_TOKEN: ${{ secrets.GIGA_SIGMY_TOKEN_VERCEL }}
 
       - name: Deploy to production
         run: vercel deploy --prod --yes --token="$VERCEL_TOKEN"
         env:
-          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_TOKEN: ${{ secrets.GIGA_SIGMY_TOKEN_VERCEL }}
 
 
