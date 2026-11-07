@@ -18,4 +18,5 @@ Tech stack:
     - next.js
     - postgres
     
+github pages: https://giga-sigmy.github.io/room_booking_system/
 
