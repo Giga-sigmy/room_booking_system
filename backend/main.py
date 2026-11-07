@@ -1,7 +1,9 @@
 from fastapi import FastAPI
+from rooms import router as rooms_router
+
 
 app = FastAPI()
-
+app.include_router(rooms_router)
 
 @app.get("/")
 def read_root():
