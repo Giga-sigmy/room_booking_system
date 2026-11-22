@@ -4,14 +4,8 @@ name: Build Frontend
 on:
   push:
     branches: [main]
-    paths:
-      - "website/**"
-      - "frontend-ci.yml"
   pull_request:
     branches: [main]
-    paths:
-      - "website/**"
-      - "frontend-ci.yml"
 
 permissions:
   contents: read

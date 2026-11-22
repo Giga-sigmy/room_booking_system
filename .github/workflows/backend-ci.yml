@@ -4,14 +4,9 @@ name: Build Backend
 on:
   push:
     branches: [main]
-    paths:
-      - "backend/**"
-      - "backend-ci.yml"
   pull_request:
     branches: [main]
-    paths:
-      - "backend/**"
-      - "backend-ci.yml"
+
 
 permissions:
   contents: read
