@@ -18,4 +18,5 @@ Tech stack:
     - next.js
     - postgres
 
-https://room-booking-system-ashen.vercel.app/
+backend: https://room-booking-system-ashen.vercel.app/
+frontend: https://giga-sigmy.github.io/room_booking_system/
