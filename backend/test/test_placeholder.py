@@ -1,5 +1,5 @@
 def test_placeholder():
     assert True
 
-def fail():
+def test_fail():
     assert True == False
